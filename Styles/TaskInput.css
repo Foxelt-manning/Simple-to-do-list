@@ -1,0 +1,106 @@
+.page {
+  width: 80%;
+  color: #d1e6f9;
+  margin: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputborder {
+  padding: 1rem 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #003554;
+}
+.inputborder p {
+  color: #d1e6f9;
+  font-family: Cambria;
+}
+.inputborder input, .inputborder textarea, .inputborder select {
+  background-color: #0582ca;
+  color: #d1e6f9;
+}
+.inputborder input[type=text], .inputborder textarea {
+  border: 3px solid #1a76b3;
+  border-radius: 5px;
+  width: 80%;
+}
+.inputborder input[type=date], .inputborder select {
+  font-size: 1rem;
+  border: 3px solid #1a76b3;
+  border-radius: 7px;
+  width: 80%;
+}
+.inputborder button {
+  background-color: #0582ca;
+  color: #d1e6f9;
+  border-radius: 0.5rem;
+  border: 1.5px solid #1a76b3;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+ul {
+  background-color: #003554;
+}
+
+.task-container {
+  background-color: #0582ca;
+  margin-top: 1em;
+  padding: 0.1em 0.3em;
+  text-align: center;
+}
+.task-container:hover {
+  background-color: #0a2a45;
+}
+.task-container .task-space {
+  color: azure;
+}
+.task-container .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -1.8em;
+}
+.task-container .button_area {
+  display: flex;
+  justify-content: space-between;
+}
+.task-container button {
+  background-color: #0582ca;
+  border: 1px solid #d1e6f9;
+  border-radius: 0.5em;
+}
+.task-container .delete {
+  background-color: #e63946;
+  color: #ffffff;
+}
+.task-container .delete:hover {
+  background-color: rgb(218.599103139, 27.600896861, 41.9533632287);
+  color: rgb(234.6, 234.6, 234.6);
+}
+.task-container .edit {
+  background-color: #00A6FB;
+  color: #051923;
+}
+.task-container .edit:hover {
+  background-color: rgb(0, 98.5418326693, 149);
+  color: black;
+}
+.task-container .complete {
+  background-color: #00B894;
+  color: #ffffff;
+}
+.task-container .complete:hover {
+  background-color: rgb(0, 82, 65.9565217391);
+  color: #cccccc;
+}
+
+.small-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: 1px solid #0582ca;
+  border-radius: 0.75rem;
+}
+
+li {
+  list-style-type: circle;
+}/*# sourceMappingURL=TaskInput.css.map */

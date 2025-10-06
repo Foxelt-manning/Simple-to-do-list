@@ -1,0 +1,126 @@
+@import '../src/Variables/Variables.scss';
+
+.page{
+    width: 80%;
+    color: $muted-text;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputborder{
+    padding: 1rem 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $background_contrast;
+
+    p{
+        color: $muted-text;
+        font-family: Cambria;
+    }
+
+    input,textarea,select{
+                 background-color: $heading;
+                 color: #d1e6f9;
+    }
+
+    input[type="text"],textarea{
+        border:  3px solid $border;;
+         border-radius: 5px;
+         width: 80%;
+
+    }
+    input[type="date"],select{
+         font-size: 1rem;
+         border:  3px solid $border;;
+         border-radius: 7px;
+         width: 80%;
+    }
+
+    button{
+        background-color: $heading;
+        color: #d1e6f9;
+        border-radius: 0.5rem;
+        border: 1.5px solid $border;
+        font-size: 1rem;
+        margin-top: 1rem;
+
+    }
+}
+
+ul{
+    background-color: $background_contrast;
+}
+.task-container{
+    background-color: $heading;
+    margin-top: 1em;
+    padding: 0.1em 0.3em;
+    text-align: center;
+     &:hover{
+        background-color: $surface;
+     }
+    
+    .task-space{
+        color: azure;
+    }
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:-1.8em ;
+    }
+
+    .button_area{
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        background-color: $heading;
+        border: 1px solid $muted-text;
+        border-radius: 0.5em;
+
+    
+    }
+    .delete{
+        background-color: $delete-bkg-btn;
+        color: $delete-text-btn;
+
+        &:hover{
+            background-color: darken($delete-bkg-btn,8%);
+            color:darken($delete-text-btn,8%);
+        }
+
+    }
+     .edit{
+        background-color: $neutral-bkg-btn;
+        color: $neutral-text-btn;
+
+        &:hover{
+            background-color: darken($neutral-bkg-btn,20%);
+            color:darken($neutral-text-btn,20%);
+        }
+
+    }
+    .complete{
+        background-color: $success-bkg-btn;
+        color: $success-text-btn;
+
+        &:hover{
+            background-color: darken($success-bkg-btn,20%);
+            color:darken($success-text-btn,20%);
+        }
+
+    }
+    
+    }
+
+
+
+.small-shadow{
+    box-shadow: $shadow-strong;
+    border: 1px solid $heading;
+    border-radius: $border-radius-small;
+}
+li{
+   list-style-type:circle;
+}

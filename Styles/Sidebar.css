@@ -1,0 +1,19 @@
+.cover {
+  background-color: #003554;
+  color: #0582ca;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.tab {
+  margin: 0.4em;
+  font-size: 1.05em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}/*# sourceMappingURL=Sidebar.css.map */
